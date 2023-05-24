@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+        let num1,num2,sum;
+        num1=parseInt(document.getElementById("fn").value);
+        num2=parseInt(document.getElementById("sn").value);
+        sum=num1+num2;
+        document.getElementById("sm").value=sum;
+        
+        }
+        let a=prompt("enter your name");
+        alert(a);
+    </script>
+</head>
+<body>
+    <p>first number:<input id="fn"</p>
+    <p>second number:<input id="sn"</p>
+    <button onclick="add()">add</button>
+    <p>sum:<input id="sm"</p>
+
+</body>
+</html>
